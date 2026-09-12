@@ -17,3 +17,11 @@ usernamecache.json
 local/**
 !local/kubejs
 /config/spark/
+**/*cache*/
+defaultconfigs/
+.mixin.out/**
+patchouli_data.json
+.sable/
+.qmenu_opened.marker
+simplebackups/
+**/**search_index**/
