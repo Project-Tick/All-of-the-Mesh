@@ -15,9 +15,9 @@
     // The standard expansive, large cheese-shaped caves.
     "cheese_enabled": true,
     // The distance in depth between the start and end of the depth cutoff. 0.1 means caves close over ~12 blocks, 0.0 means caves cut off at the `depth_cutoff_start` value immediately.
-    "depth_cutoff_size": 0.1,
+    "depth_cutoff_size": 0.15,
     // The depth noise value that caves stop generating. 0.1 cuts off caves ~12 blocks below the surface, 0.5 cuts off caves ~64 blocks below the surface.
-    "depth_cutoff_start": 0.1,
+    "depth_cutoff_start": 0.15,
     // Density added to noodle caves. Lower values = bigger noodle caves.
     "noodle_additive": -0.075,
     // The narrow, claustrophobic noodle-shaped caves.
@@ -35,7 +35,7 @@
     // The threshold where plateau terrain becomes flatter terrain. Positive numbers favor flat terrain and negative numbers favor plateau terrain.
     "flat_terrain_skew": 0.1,
     // Some jungles generate massive pillars that can extend upwards of a hundred blocks tall.
-    "jungle_pillars": true,
+    "jungle_pillars": false,
     // Skews terrain towards or away from oceans. Lower values = more oceans. Above -0.45, deep oceans will not spawn! Above -0.2, oceans will not spawn!
     "ocean_offset": -0.8,
     // Horizontally scales the ridge noise, primarily impacting rivers and terrain around them like plateaus. Lower values = wider rivers and terrain between them.
@@ -64,7 +64,7 @@
     // Increases the effects of Vertical Scale on mountainous terrain. This will increase the scale of mountains and plateaus faster than lowlands.
     "elevation_boost": 0.0,
     // Rare, deep underground tunnels of lava sometimes generate at the bottom of the world.
-    "lava_tunnels": true,
+    "lava_tunnels": false,
     "max_y": 320,
     "min_y": -64,
     // Greatly smoothens out the terrain like Tectonic v2, removing staircasing artifacts at the cost of strange/broken generation in deep oceans and windswept biomes.
